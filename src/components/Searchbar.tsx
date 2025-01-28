@@ -101,7 +101,7 @@ const Searchbar: React.FC = () => {
                   key={game.id}
                   to={`/game/${game.slug}`}
                   onClick={handleGameClick}
-                  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                  className="flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer dark:bg-stone-950"
                 >
                   <div className="flex">
                     <img
